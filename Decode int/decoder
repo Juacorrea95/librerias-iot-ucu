@@ -1,0 +1,6 @@
+function Decoder(input) {
+  var num = input[0] | input[1] << 8
+  return {
+      integer: num
+  };
+}
