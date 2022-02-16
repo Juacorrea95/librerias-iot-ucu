@@ -1,7 +1,6 @@
 import socket
 import time
 import binascii
-import struct
 import pycom
 from network import LoRa
 
