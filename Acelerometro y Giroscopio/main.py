@@ -12,7 +12,7 @@ pycom.heartbeat(False)
 
 while True:
 
-    pycom.rgbled(0x000014)
+    pycom.rgbled(0x000060)
     print('\n\n-----------------------------------')
     print('\n\n** 3-Axis Accelerometer (LIS2HH12)')
     print('Acceleration', li.acceleration())

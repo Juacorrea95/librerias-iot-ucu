@@ -50,7 +50,7 @@ while True:
     s.setblocking(True)
     pycom.rgbled(0x000014)
 
-    send_data = bytes([255])
+    send_data = bytes([64])
 
     print('Sending data (uplink)...')
     s.send(send_data)

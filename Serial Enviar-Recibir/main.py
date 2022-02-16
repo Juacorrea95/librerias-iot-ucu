@@ -1,7 +1,7 @@
 import pycom
 
 # Disable heartbeat LED
-pycom.heartbeat(False)
+pycom.heartbeat(True)
 
 while True:
     val = input("Ingresar valor: ")
